@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "be690646d4dd02b4c5429ee2b0b29f7a",
+    "content-hash": "1b56809f4ade03721b6850616245db2f",
     "packages": [
         {
             "name": "composer/installers",
@@ -414,6 +414,71 @@
             }
         },
         {
+            "name": "drupal/civicrm_entity",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/civicrm_entity",
+                "reference": "7.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/civicrm_entity-7.x-1.0.zip",
+                "reference": "7.x-1.0",
+                "shasum": "758e9b457a67283018f2de6c0e4673d3cc88b675"
+            },
+            "require": {
+                "drupal/drupal": "~7.0",
+                "drupal/entity": "*"
+            },
+            "require-dev": {
+                "drupal/entity": "*",
+                "drupal/entityreference": "*",
+                "drupal/entityreference_view_widget": "*",
+                "drupal/features": "*",
+                "drupal/og": "*",
+                "drupal/rules": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-1.0",
+                    "datestamp": "1382998526",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "eileenmcnaughton",
+                    "homepage": "https://www.drupal.org/user/249551"
+                },
+                {
+                    "name": "markusa",
+                    "homepage": "https://www.drupal.org/user/142798"
+                },
+                {
+                    "name": "xurizaemon",
+                    "homepage": "https://www.drupal.org/user/76026"
+                }
+            ],
+            "description": "Declare CiviCRM entities as Drupal entities",
+            "homepage": "https://www.drupal.org/project/civicrm_entity",
+            "support": {
+                "source": "http://cgit.drupalcode.org/civicrm_entity",
+                "error": "Invalid dependency: \"civicrm\" is an unknown drupal 7 package name"
+            }
+        },
+        {
             "name": "drupal/composer_autoloader",
             "version": "1.2.0",
             "source": {
@@ -655,6 +720,69 @@
             "homepage": "https://www.drupal.org/project/drupal",
             "support": {
                 "source": "http://cgit.drupalcode.org/drupal"
+            }
+        },
+        {
+            "name": "drupal/entity",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/entity",
+                "reference": "7.x-1.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/entity-7.x-1.8.zip",
+                "reference": "7.x-1.8",
+                "shasum": "b67ba9509bf091e181b4ab44b25293b4d09745c6"
+            },
+            "require": {
+                "drupal/drupal": "~7.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "7.x-1.8",
+                    "datestamp": "1474545839",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/7/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "bojanz",
+                    "homepage": "https://www.drupal.org/user/86106"
+                },
+                {
+                    "name": "dawehner",
+                    "homepage": "https://www.drupal.org/user/99340"
+                },
+                {
+                    "name": "dixon_",
+                    "homepage": "https://www.drupal.org/user/239911"
+                },
+                {
+                    "name": "fago",
+                    "homepage": "https://www.drupal.org/user/16747"
+                }
+            ],
+            "description": "Enables modules to work with any entity type and to provide entities.",
+            "homepage": "https://www.drupal.org/project/entity",
+            "support": {
+                "source": "http://cgit.drupalcode.org/entity"
             }
         },
         {

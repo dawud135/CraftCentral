@@ -24,7 +24,8 @@
     "drupal/composer_autoloader": "1.*",
     "drupal/webform": "^4.15",
     "drupal/webform_civicrm": "^4.19",
-    "drupal/bootstrap": "^3.15"
+    "drupal/bootstrap": "^3.15",
+    "drupal/civicrm_entity": "^1.0"
   },
   "conflict": {
     "drupal/core": "8.*"
